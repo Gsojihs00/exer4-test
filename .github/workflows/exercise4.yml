@@ -42,7 +42,7 @@ jobs:
       url: http://splendid-cabbage.surge.sh
     steps:
       - name: Download the build artifacts
-        uses: actions/download-artifacts@v5.0.0
+        uses: actions/download-artifact@v5.0.0
         with:
           name: build
       - name: deploy to surge
